@@ -1,0 +1,38 @@
+*{
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   border:none;
+   margin:0;
+   padding:0;
+
+}
+
+header {
+    display: flex;
+    
+    align-items:center;
+    height: 64px;
+    border: 1px solid red;
+    font-size: 32px;
+    background-color: white;
+
+}
+
+#header--icon {
+    margin-left:24px;
+    height: 42px;
+    
+}
+header li {
+    display: flex;
+    
+    align-items: center; 
+    color:aquamarine;
+    list-style-type: none;
+    font-weight: normal;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+    
+}
