@@ -8,11 +8,10 @@
 
 header {
     display: flex;
-    
+    justify-content: space-between;
     align-items:center;
     height: 64px;
     border: 1px solid red;
-    font-size: 32px;
     background-color: white;
 
 }
@@ -22,11 +21,24 @@ header {
     height: 42px;
     
 }
-header li {
-    display: flex;
+
+#header--title {
+    font-size: 32px;
     
-    align-items: center; 
-    color:aquamarine;
+}
+
+.brand {
+    display: flex;
+    gap: 2px;
+}
+ul {
+    display: flex;
+    gap: 16px;
+    margin-right: 24px;
+}
+
+header li {
+   
     list-style-type: none;
     font-weight: normal;
 }
